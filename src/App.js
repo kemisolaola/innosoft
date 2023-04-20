@@ -1,4 +1,5 @@
 import Main from "./pages/Main";
+import Product from "./pages/Product";
 import './App.css'
 import {
   BrowserRouter as Router,
@@ -11,6 +12,9 @@ const App = () => {
     <Switch>
     <Route exact path="/">
         <Main/>
+      </Route>
+      <Route exact path="/product">
+        <Product/>
       </Route>
     </Switch>
   </Router>;

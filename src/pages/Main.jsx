@@ -1,12 +1,18 @@
 import  Navbar  from '../components/Navbar'
+import Sidebar from '../components/Sidebar'
 
 const Main = () => {
   return (
     <>
     <Navbar/>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='bg-gray-50 grid grid-cols-3 h-screen'>
+    <div className='col-span-1'>
+      <Sidebar/>
+    </div>
+    <div className='col-span-2'>
+      <p>dsvnjk;cb</p>
+    </div>
+    </div>
     </>
   )
 }
