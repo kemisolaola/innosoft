@@ -10,7 +10,6 @@ const Main = () => {
       <Sidebar/>
     </div>
     <div className='col-span-2'>
-      <p>dsvnjk;cb</p>
     </div>
     </div>
     </>
